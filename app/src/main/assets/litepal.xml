@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="cool_weather"></dbname>//数据库的名字
+    <version value="1"></version>//数据库的版本号
+
+    <list>
+        <mapping class="com.example.administrator.coolweather_20170215.db.Province"></mapping>//利用面向对象的思想，通过创建实体类来创建数据库表，在此引入。
+        <mapping class="com.example.administrator.coolweather_20170215.db.City"></mapping>//引入时必须是完整的类名。
+        <mapping class="com.example.administrator.coolweather_20170215.db.County"></mapping>
+    </list>
+</litepal>
